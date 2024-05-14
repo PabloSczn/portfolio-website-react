@@ -53,7 +53,7 @@ body {
 
 /* GENERAL SECTION STYLES */
 section {
-    padding: 10rem 0;
+    padding: 12rem 0;
     background: var(--color-light);
     transition: var(--transition);
 }
