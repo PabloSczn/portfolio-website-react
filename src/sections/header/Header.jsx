@@ -25,8 +25,8 @@ const Header = () => {
           Never gonna run around and desert you
         </p>
         <div className="header__cta" data-aos="fade-up">
-          <a href="#contact" className='btn primary'>Let's Talk</a>
-          <a href="#portfolio" className='btn light'>My Work</a>
+          <a href="#portfolio" className='btn primary'>My Work</a>
+          <a href="#contact" className='btn light'>Let's Talk!</a>
         </div>
         <div className="header__socials" data-aos="fade-up">
           {

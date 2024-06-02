@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import AboutImage from '../../assets/about.webp'
+import AboutImage from '../../assets/about.jpg'
 import CV from '../../assets/PabloSanchezNarroCV.pdf'
 import { HiDownload } from 'react-icons/hi'
 import data from './data'
