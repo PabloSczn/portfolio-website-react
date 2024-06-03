@@ -57,8 +57,18 @@
     object-fit: cover; /* Ensure images are cropped to fit the container */
 }
 
+.portfolio__project-content {
+    flex-grow: 1;
+}
+
+.portfolio__project h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
 .portfolio__project p {
     margin: 0.5rem 0 2rem;
+    flex-grow: 1;
 }
 
 .portfolio__project-cta {

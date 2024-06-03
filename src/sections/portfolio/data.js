@@ -29,7 +29,7 @@ const data = [
           Developed in Android Studio with Java. Features community story submissions.
         `,
         demo: 'https://youtube.com/shorts/jl3suBvp4SQ', // Replace with the actual link if available
-        github: 'https://github.com/PabloSczn/GreyStories',
+        github: 'https://github.com/PabloSczn/GreyStoriesApp',
         icon: <><DiAndroid /><FaJava /></> // Adding the icons for Android and Java
     },
     {
