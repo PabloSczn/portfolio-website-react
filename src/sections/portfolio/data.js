@@ -7,6 +7,8 @@ import Image6 from '../../assets/project6.jpg'
 import Image7 from '../../assets/project7.jpg'
 import Image8 from '../../assets/project8.jpg'
 import Image9 from '../../assets/project9.jpg'
+import SudokuImage from '../../assets/sudoku.png'; // Ensure this image exists in the assets folder
+import { FaC } from "react-icons/fa6"; // Importing C language icon
 
 const data = [
     {
@@ -89,7 +91,17 @@ const data = [
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
-    }
+    },
+    {
+        id: 10,
+        category: 'backend', // Adjust category if needed
+        image: SudokuImage,
+        title: "Sudoku Game Implementation",
+        desc: "A C-based console application for playing Sudoku. Features include dynamic Sudoku board generation, undo/redo moves, saving/loading games, and a timer.",
+        demo: 'https://www.youtube.com/watch?v=3O1fJ-Pqw74', 
+        github: 'https://github.com/PabloSczn/SudokuGame',
+        icon: <FaC /> // Adding the icon for C language
+      }
 ]
 
 

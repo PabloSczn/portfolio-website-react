@@ -66,6 +66,14 @@
     border-color: var(--color-primary);
 }
 
+.portfolio__project-icon {
+    font-size: 1.5rem; /* Adjust size as needed */
+    color: blue;
+    margin-left: 1rem; /* Space between buttons and icon */
+    display: flex; /* Center align */
+    align-items: center; /* Center align */
+  }
+  
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
