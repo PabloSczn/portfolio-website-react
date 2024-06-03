@@ -1,23 +1,19 @@
 import { useState } from 'react'
 import CategoryButton from './CategoryButton'
 
-const ProjectsCategories = ({categories, onFilterProjects}) => {
-    const [activeCategory, setActiveCategory] = useState('all');
+const ProjectsCategories = ({ categories, onFilterProjects, activeCategory }) => {
 
-    const changeCategoryHandler = (activeCat) => {
-        setActiveCategory(activeCat);
-        onFilterProjects(activeCat);
-    }
+  const changeCategoryHandler = (category) => {
+    onFilterProjects(category);
+  }
 
   return (
     <div className='portfolio__categories'>
-        {
-            categories.map(category => (
-                <CategoryButton key={category} category={category} onChangeCategory={() => changeCategoryHandler(category)} className={`btn cat__btn ${activeCategory === category ? 'primary' : 'white'}`}/>
-            ))
-        }
+      {categories.map(category => (
+        <CategoryButton key={category} category={category} onChangeCategory={changeCategoryHandler} className={`btn cat__btn ${activeCategory === category ? 'primary' : 'white'}`} />
+      ))}
     </div>
   )
 }
 
-export default ProjectsCategories
+export default ProjectsCategories;

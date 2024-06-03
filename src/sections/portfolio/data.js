@@ -1,7 +1,8 @@
-import SudokuImage from '../../assets/sudoku.png'; 
-import GreyStoriesImage from '../../assets/GreyStories.jpeg'; 
-import GoodCampsImage from '../../assets/GoodCamps.jpg'; 
-import PortfolioImage from '../../assets/portfolio.jpg'; 
+import SudokuImage from '../../assets/sudoku.png';
+import GreyStoriesImage from '../../assets/GreyStories.jpeg';
+import GoodCampsImage from '../../assets/GoodCamps.jpg';
+import PortfolioImage from '../../assets/portfolio.jpg';
+import CavernsImage from '../../assets/caverns.png'; 
 import { FaC } from "react-icons/fa6"; // Importing C language icon
 import { DiAndroid } from "react-icons/di"; // Importing Android icon
 import { FaJava } from 'react-icons/fa'; // Importing Java icon
@@ -11,11 +12,12 @@ import { SiExpress } from 'react-icons/si'; // Importing Express.js icon
 import { FaReact } from 'react-icons/fa'; // Importing React icon
 import { TbFileTypeCss } from "react-icons/tb"; // Importing CSS3 icon
 import { FaHtml5 } from 'react-icons/fa'; // Importing HTML5 icon
+import { FaPython } from 'react-icons/fa'; // Importing Python icon
 
 const data = [
     {
-        id: 10,
-        category: 'backend', // Adjust category if needed
+        id: 1,
+        categories: ['backend'], // Adjust categories
         image: SudokuImage,
         title: "Sudoku Game",
         desc: "A C-based console application for playing Sudoku. Features include dynamic Sudoku board generation, undo/redo moves, saving/loading games, and a timer.",
@@ -24,8 +26,8 @@ const data = [
         icon: <FaC /> // Adding the icon for C language
     },
     {
-        id: 11,
-        category: 'mobile',
+        id: 2,
+        categories: ['mobile'],
         image: GreyStoriesImage,
         title: "GreyStories Android App",
         desc: `
@@ -37,8 +39,8 @@ const data = [
         icon: <><DiAndroid /><FaJava /></> // Adding the icons for Android and Java
     },
     {
-        id: 12,
-        category: 'web',
+        id: 3,
+        categories: ['web', 'fullstack'],
         image: GoodCampsImage,
         title: "GoodCamps",
         desc: `
@@ -50,17 +52,29 @@ const data = [
         icon: <><FaNodeJs /><SiExpress /><SiMongodb /></> // Adding the icons for Node.js, Express, and MongoDB
     },
     {
-        id: 13,
-        category: 'web',
+        id: 4,
+        categories: ['web', 'fullstack'],
         image: PortfolioImage,
         title: "Personal Portfolio",
         desc: `
-          This cool portfolio you are looking at!
+          This project showcases my skills and projects using React.js. It includes detailed descriptions, images, and links to my work.
           Built with React.js, CSS, and HTML.
         `,
         demo: 'https://github.com/PabloSczn/portfolio-website-react', // Replace with the actual link if available
         github: 'https://github.com/PabloSczn/portfolio-website-react',
         icon: <><FaReact /><TbFileTypeCss /><FaHtml5 /></> // Adding the icons for React, CSS, and HTML
+    },
+    {
+        id: 5,
+        categories: ['backend'],
+        image: CavernsImage,
+        title: "Caverns Routing Application",
+        desc: `
+          Implements an advanced A* search algorithm to navigate through a series of underground caverns. Uses Euclidean distance and handles matrix transposition. Built with Python.
+        `,
+        demo: 'https://github.com/PabloSczn/cavern-path-finding', // Replace with the actual link if available
+        github: 'https://github.com/PabloSczn/cavern-path-finding',
+        icon: <FaPython /> // Adding the icon for Python
     }
 ];
 
