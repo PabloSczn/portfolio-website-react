@@ -1,108 +1,50 @@
-import Image1 from '../../assets/project1.jpg'
-import Image2 from '../../assets/project2.jpg'
-import Image3 from '../../assets/project3.jpg'
-import Image4 from '../../assets/project4.jpg'
-import Image5 from '../../assets/project5.jpg'
-import Image6 from '../../assets/project6.jpg'
-import Image7 from '../../assets/project7.jpg'
-import Image8 from '../../assets/project8.jpg'
-import Image9 from '../../assets/project9.jpg'
 import SudokuImage from '../../assets/sudoku.png'; // Ensure this image exists in the assets folder
+import GreyStoriesImage from '../../assets/GreyStories.jpeg'; // Ensure this image exists in the assets folder
+import GoodCampsImage from '../../assets/GoodCamps.jpg'; // Ensure this image exists in the assets folder
 import { FaC } from "react-icons/fa6"; // Importing C language icon
+import { DiAndroid } from "react-icons/di"; // Importing Android icon
+import { FaJava } from 'react-icons/fa'; // Importing Java icon
+import { FaNodeJs } from 'react-icons/fa'; // Importing Node.js icon
+import { SiMongodb } from 'react-icons/si'; // Importing MongoDB icon
+import { SiExpress } from 'react-icons/si'; // Importing Express.js icon
 
 const data = [
-    {
-        id: 1,
-        category: 'uiux',
-        image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 2,
-        category: 'frontend',
-        image: Image2,
-        title: "Project Title Two (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 3,
-        category: 'frontend',
-        image: Image3,
-        title: "Project Title Three (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 4,
-        category: 'uiux',
-        image: Image4,
-        title: "Project Title Four (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 5,
-        category: 'uiux',
-        image: Image5,
-        title: "Project Title Five (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 6,
-        category: 'frontend',
-        image: Image6,
-        title: "Project Title Six (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 7,
-        category: 'frontend',
-        image: Image7,
-        title: "Project Title Seven (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 8,
-        category: 'backend',
-        image: Image8,
-        title: "Project Title Eight (Backend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 9,
-        category: 'frontend',
-        image: Image9,
-        title: "Project Title Nine (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
     {
         id: 10,
         category: 'backend', // Adjust category if needed
         image: SudokuImage,
-        title: "Sudoku Game Implementation",
+        title: "Sudoku Game",
         desc: "A C-based console application for playing Sudoku. Features include dynamic Sudoku board generation, undo/redo moves, saving/loading games, and a timer.",
         demo: 'https://www.youtube.com/watch?v=3O1fJ-Pqw74', 
         github: 'https://github.com/PabloSczn/SudokuGame',
         icon: <FaC /> // Adding the icon for C language
-      }
-]
+    },
+    {
+        id: 11,
+        category: 'mobile',
+        image: GreyStoriesImage,
+        title: "GreyStories Android App",
+        desc: `
+          Grey Stories is a mobile adaptation of the riddle card game, Dark Stories. It allows users to read, archive, and like their favorite stories.
+          Developed in Android Studio with Java. Features community story submissions.
+        `,
+        demo: 'https://youtube.com/shorts/jl3suBvp4SQ', // Replace with the actual link if available
+        github: 'https://github.com/PabloSczn/GreyStories',
+        icon: <><DiAndroid /><FaJava /></> // Adding the icons for Android and Java
+    },
+    {
+        id: 12,
+        category: 'web',
+        image: GoodCampsImage,
+        title: "GoodCamps",
+        desc: `
+          GoodCamps is a web application designed to allow users to view, add, edit, and delete campground information.
+          Built with Node.js, Express, MongoDB, and EJS.
+        `,
+        demo: 'https://github.com/PabloSczn/Camp-Reviews-Project', // Replace with the actual link if available
+        github: 'https://github.com/PabloSczn/Camp-Reviews-Project',
+        icon: <><FaNodeJs /><SiExpress /><SiMongodb /></> // Adding the icons for Node.js, Express, and MongoDB
+    }
+];
 
-
-export default data
+export default data;

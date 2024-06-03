@@ -12,7 +12,7 @@ const Project = ({project}) => {
         <div className="portfolio__project-cta">
           <a href={project.demo} className="btn sm" target="_blank" rel="noopener noreferrer">Demo</a>
           <a href={project.github} className="btn sm primary" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <span className="portfolio__project-icon">{project.icon}</span> {/* Displaying the icon */}
+          <div className="portfolio__project-icons">{project.icon}</div> {/* Displaying the icons */}
         </div>
     </Card>
   )
