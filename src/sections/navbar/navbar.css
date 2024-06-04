@@ -1,8 +1,8 @@
 nav {
     width: 100vw;
     height: 5rem;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
     background: var(--color-primary);
     position: fixed;
     top: 0;
@@ -13,20 +13,28 @@ nav {
 }
 
 .nav__container {
+    width: var(--container-width-lg);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav__logo {
-    width: 2.5rem;
-    border-radius: 50%;
-    overflow: hidden;
+.nav__name {
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-white);
+    text-decoration: none;
+    font-weight: bold;
+    transition: var(--transition);
+}
+
+.nav__name:hover {
+    color: var(--color-light);
 }
 
 .nav__menu {
     display: flex;
-    gap: 3.5rem;
+    gap: 3.5rem; /* Keep original gap for the menu items */
 }
 
 #theme__icon {

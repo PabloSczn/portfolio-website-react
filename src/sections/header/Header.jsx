@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import HeaderImage from '../../assets/header.webp';
+import HeaderImage from '../../assets/header.jpg';
 import data from './data';
 import './header.css';
 import AOS from 'aos';

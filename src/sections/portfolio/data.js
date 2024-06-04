@@ -53,7 +53,7 @@ const data = [
     },
     {
         id: 4,
-        categories: ['web', 'fullstack'],
+        categories: ['web'],
         image: PortfolioImage,
         title: "Personal Portfolio",
         desc: `
