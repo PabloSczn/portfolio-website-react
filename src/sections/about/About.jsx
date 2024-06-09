@@ -33,9 +33,9 @@ const About = () => {
             ))}
           </div>
           <p data-aos="fade-in">
-            Innovative and experienced BEng Software Engineering graduate fluent in Spanish and English. 
-            Demonstrates a robust "get things done" attitude, an exceptional sense of ownership, and a deep understanding of engineering fundamentals. 
-            Proven track record in managing complex software projects and working in dynamic teams to exceed standards in software development.
+            Welcome to my space! I'm a bilingual (Spanish and English) BEng Software Engineering with experience and a passion for turning complex challenges into great solutions. <br />
+            I thrive on a "get things done" attitude, taking ownership of projects and with a deep understanding of engineering fundamentals.
+            I have a track record of working on projects that exceed expectations, I'm here to make a significant impact!
           </p>
           <a href={CV} download className='btn primary' data-aos="fade-in">Download CV <HiDownload /></a>
         </div>

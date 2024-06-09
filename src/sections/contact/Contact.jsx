@@ -17,13 +17,13 @@ const Contact = () => {
 
     emailjs.sendForm('service_mw3xzci', 'template_v5uzlia', form.current, 'UERgo7qFzewmQWazz')
       .then((result) => {
-          console.log(result.text);
-          alert("Message Sent Successfully!");
+        console.log(result.text);
+        alert("Message Sent Successfully!");
       }, (error) => {
-          console.log(error.text);
-          alert("Failed to send the message, please try again.");
+        console.log(error.text);
+        alert("Failed to send the message, please try again.");
       });
-      e.target.reset();
+    e.target.reset();
   };
 
   return (
@@ -47,6 +47,6 @@ const Contact = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Contact;
