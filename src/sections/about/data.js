@@ -4,20 +4,20 @@ const data = [
     {
         id: 1,
         icon: <FaCode />,
-        title: 'Software Development',
-        desc: 'Passionate about developing cutting-edge software solutions.'
+        title: 'Engineer',
+        desc: 'Passionate about developing cutting-edge software solutions'
     },
     {
         id: 2,
         icon: <FaUsers />,
         title: 'Team Player',
-        desc: 'Experienced in working with dynamic software development teams.'
+        desc: 'Experienced in working with dynamic software development teams'
     },
     {
         id: 3,
         icon: <FaAward />,
         title: 'Experience',
-        desc: '3+ years of experience delivering high-quality, reliable solutions.'
+        desc: '3+ years of experience delivering high-quality, reliable solutions'
     }
 ];
 

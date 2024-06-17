@@ -33,7 +33,7 @@ const About = () => {
             ))}
           </div>
           <p data-aos="fade-in">
-            Welcome to my space! I'm a bilingual (Spanish and English) BEng Software Engineering with experience and a passion for turning complex challenges into great solutions. <br />
+            Welcome to my space! I'm a BEng Software Engineering with experience and a passion for turning complex challenges into great solutions.
             I thrive on a "get things done" attitude, taking ownership of projects and with a deep understanding of engineering fundamentals.
             I have a track record of working on projects that exceed expectations, I'm here to make a significant impact!
           </p>

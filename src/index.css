@@ -9,16 +9,16 @@
 }
 
 :root {
-    --primary-hue: 270;
+    --primary-hue: 32; /* Adjusted for Deep Autumn palette */
     --black-lightness: 15%;
     --dark-lightness: 44%;
     --light-lightness: 94%;
     --white-lightness: 100%;
-    --color-primary: hsl(var(--primary-hue), 89%, 41%);
+    --color-primary: hsl(var(--primary-hue), 60%, 50%); /* Burnt Orange */
     --color-white: hsl(0, 5%, var(--white-lightness));
-    --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
-    --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
-    --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+    --color-light: hsl(var(--primary-hue), 60%, 90%); /* Light Mustard */
+    --color-black: hsl(var(--primary-hue), 60%, var(--black-lightness));
+    --color-dark: hsl(var(--primary-hue), 60%, var(--dark-lightness));
 
     /* GENERAL CONTAINER VARIABLES */
     --container-width-lg: 76%;
