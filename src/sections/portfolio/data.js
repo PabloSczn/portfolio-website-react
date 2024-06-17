@@ -34,7 +34,7 @@ const data = [
           Grey Stories is a mobile adaptation of the riddle card game, Dark Stories. It allows users to read, archive, and like their favorite stories.
           Developed in Android Studio with Java. Features community story submissions.
         `,
-        demo: 'https://youtube.com/shorts/jl3suBvp4SQ', // Replace with the actual link if available
+        demo: 'https://youtube.com/shorts/jl3suBvp4SQ', 
         github: 'https://github.com/PabloSczn/GreyStories-app',
         icon: <><DiAndroid /><FaJava /></> // Adding the icons for Android and Java
     },
@@ -47,7 +47,7 @@ const data = [
           GoodCamps is a web application designed to allow users to view, add, edit, and delete campground information.
           Built with Node.js, Express, MongoDB, and EJS.
         `,
-        demo: 'https://github.com/PabloSczn/camp-reviews-project', // Replace with the actual link if available
+        demo: 'https://github.com/PabloSczn/camp-reviews-project',
         github: 'https://github.com/PabloSczn/camp-reviews-project',
         icon: <><FaNodeJs /><SiExpress /><SiMongodb /></> // Adding the icons for Node.js, Express, and MongoDB
     },
@@ -57,10 +57,10 @@ const data = [
         image: PortfolioImage,
         title: "Personal Portfolio",
         desc: `
-          This project showcases my skills and projects using React.js. It includes detailed descriptions, images, and links to my work.
+          This cool portfolio you are looking at! It includes detailed descriptions, images, and links to my work.
           Built with React.js, CSS, and HTML.
         `,
-        demo: 'https://github.com/PabloSczn/portfolio-website-react', // Replace with the actual link if available
+        demo: 'https://github.com/PabloSczn/portfolio-website-react',
         github: 'https://github.com/PabloSczn/portfolio-website-react',
         icon: <><FaReact /><TbFileTypeCss /><FaHtml5 /></> // Adding the icons for React, CSS, and HTML
     },
@@ -72,7 +72,7 @@ const data = [
         desc: `
           Implements an advanced A* search algorithm to navigate through a series of underground caverns. Uses Euclidean distance and handles matrix transposition. Built with Python.
         `,
-        demo: 'https://github.com/PabloSczn/cavern-path-finding', // Replace with the actual link if available
+        demo: 'https://github.com/PabloSczn/cavern-path-finding',
         github: 'https://github.com/PabloSczn/cavern-path-finding',
         icon: <FaPython /> // Adding the icon for Python
     }
