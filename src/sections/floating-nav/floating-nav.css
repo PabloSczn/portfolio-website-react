@@ -2,8 +2,6 @@
     display: none;
 }
 
-
-
 /* MEDIA QUERIES (tablets and phones */
 @media screen and (max-width: 1024px) {
     #floating__nav {
