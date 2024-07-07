@@ -59,7 +59,6 @@ header {
     transform: translateX(-0.5rem);
 }
 
-
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
     header {
@@ -68,8 +67,7 @@ header {
     }
 }
 
-
-/* MEDIA QUERIES (tablets) */
+/* MEDIA QUERIES (mobile) */
 @media screen and (max-width: 600px) {
     .header__profile {
         width: 14rem;
