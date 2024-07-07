@@ -9,7 +9,10 @@ const Contact = () => {
   const form = useRef();
 
   useEffect(() => {
-    AOS.init({ duration: 1000, once: false });
+    AOS.init({ duration: 2000, once: false });
+    return () => {
+      AOS.refresh();
+    };
   }, []);
 
   const sendEmail = (e) => {
@@ -31,15 +34,15 @@ const Contact = () => {
       <h2 data-aos="fade-up">Get In Touch</h2>
       <p data-aos="fade-up">Shoot me a message via the form below or any of the links!</p>
       <div className="container contact__container" data-aos="fade-up">
-        <form ref={form} onSubmit={sendEmail} className="contact__form">
-          <input type="text" name="from_name" placeholder="Your Full Name" required />
-          <input type="email" name="from_email" placeholder="Your Email" required />
-          <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+        <form ref={form} onSubmit={sendEmail} className="contact__form" aria-label="Contact form">
+          <input type="text" name="from_name" placeholder="Your Full Name" required aria-label="Your Full Name" />
+          <input type="email" name="from_email" placeholder="Your Email" required aria-label="Your Email" />
+          <textarea name="message" rows="7" placeholder="Your Message" required aria-label="Your Message"></textarea>
           <button type="submit" className="btn primary">Send Message</button>
         </form>
         <div className="contact__links">
           {contacts.map(contact => (
-            <a key={contact.id} href={contact.link} target="_blank" rel="noopener noreferrer" className="contact__link">
+            <a key={contact.id} href={contact.link} target="_blank" rel="noopener noreferrer" className="contact__link" aria-label={`Contact via ${contact.id === 1 ? 'Email' : 'WhatsApp'}`}>
               {contact.icon}
             </a>
           ))}

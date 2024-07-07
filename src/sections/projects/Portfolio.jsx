@@ -11,9 +11,11 @@ const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState('all');
 
   useEffect(() => {
-    AOS.init({ duration: 1000, once: false });
+    AOS.init({ duration: 2000, once: false });
+    return () => {
+      AOS.refresh();
+    };
   }, []);
-
   const uniqueCategories = ["all", ...new Set(data.flatMap(item => item.categories))];
   
   const filterProjectsHandler = (category) => {
