@@ -1,16 +1,19 @@
 import React, { useEffect } from 'react';
-import AboutImage from '../../assets/about.jpg'
-import CV from '../../assets/PabloSanchezNarroCV.pdf'
-import { HiDownload } from 'react-icons/hi'
-import data from './data'
-import Card from '../../components/Card'
-import './about.css'
+import AboutImage from '../../assets/about.jpg';
+import CV from '../../assets/PabloSanchezNarroCV.pdf';
+import { HiDownload } from 'react-icons/hi';
+import data from './data';
+import Card from '../../components/Card';
+import './about.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const About = () => {
   useEffect(() => {
     AOS.init({ duration: 2000, once: false });
+    return () => {
+      AOS.refresh();
+    };
   }, []);
 
   return (
@@ -18,7 +21,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__left" data-aos="fade-right">
           <div className="about__portrait">
-            <img src={AboutImage} alt="About me" />
+            <img src={AboutImage} alt="Portrait of Pablo Sanchez Narro" />
           </div>
         </div>
         <div className="about__right" data-aos="fade-in">
@@ -37,11 +40,13 @@ const About = () => {
             I thrive on a "get things done" attitude, taking ownership of projects and with a deep understanding of engineering fundamentals.
             I have a track record of working on projects that exceed expectations, I'm here to make a significant impact!
           </p>
-          <a href={CV} download className='btn primary' data-aos="fade-in">Download CV <HiDownload /></a>
+          <a href={CV} download className='btn primary' aria-label="Download CV">
+            Download CV <HiDownload />
+          </a>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default About;
