@@ -56,6 +56,17 @@
     margin-top: 2.5rem;
 }
 
+.about__badge {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.about__badge img {
+    width: 90px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 1rem;
+}
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
