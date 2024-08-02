@@ -1,3 +1,7 @@
+#contact{
+    padding: 8rem;
+}
+
 .contact__container {
     display: flex;
     flex-direction: column;

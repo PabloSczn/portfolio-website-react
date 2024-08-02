@@ -1,64 +1,21 @@
-import Avatar1 from '../../assets/about.jpg'
-import Avatar2 from '../../assets/about.jpg'
-import Avatar3 from '../../assets/about.jpg'
-import Avatar4 from '../../assets/about.jpg'
-import Avatar5 from '../../assets/about.jpg'
-import Avatar6 from '../../assets/about.jpg'
-import Avatar7 from '../../assets/about.jpg'
-
+import Davide from '../../assets/davide-pollicino.jpg'
+import Sophie from '../../assets/sophie-patterson.jpg'
 
 const data = [
         {
         id: 1,
-        quote: "It's truly amazing how you did exactly what I want with the little information I gave. You'll be my go-to developer from today. Highly recommend!",
-        avatar: Avatar1,
-        name: 'Nana Ama McBrown',
-        profession: 'Actress'
+        quote: "Pablo is a talent in software development, live project management, but above all, business vision and communication. We collaborated at taxcoder.cz, where we saw Pablo leading critical areas of the project, from deployment and management of the infrastructure on AWS, to the growth of the test suite, integration and management of packages such as payment gateways, but above all, exercising great capacity for leadership within the team.",
+        avatar: Davide,
+        name: 'Davide Pollicino',
+        profession: 'Software Engineer @Microsoft & Mentor @Microsoft for Startups | Top Mentor @MentorCruise | Azure AI Engineer associate (OpenAI)'
         },
         {
         id: 2,
-        quote: "Good job, Hajia! Right on time! I really like how the project turned out, and my customers like it as well. It was fun collaborating with you.",
-        avatar: Avatar2,
-        name: 'Ernest Achiever',
-        profession: 'Web Developer'
-        },
-        {
-        id: 3,
-        quote: "Impressive work, buddy. Highly recommend!",
-        avatar: Avatar3,
-        name: 'Daniel Vinyo',
-        profession: 'Graphic Designer'
-        },
-        {
-        id: 4,
-        quote: "Wow. You finished earlier than you said. Everything's modern and beautifully done to the T. Great profession!",
-        avatar: Avatar4,
-        name: 'Diana Ayi',
-        profession: 'Singer'
-        },
-        {
-        id: 5,
-        quote: "I like how the app turned out. You are incredible, Hajia.",
-        avatar: Avatar5,
-        name: 'Vivian Mensah',
-        profession: 'Street Photographer'
-        },
-        {
-        id: 6,
-        quote: "Best developer in the world!",
-        avatar: Avatar6,
-        name: 'Hajia Bintu',
-        profession: 'Brand Influencer'
-        },
-        {
-        id: 7,
-        quote: "Keep doing great stuff, dear! Nicely executed!",
-        avatar: Avatar7,
-        name: 'Nicki Nyarko',
-        profession: 'Makeup Artist'
+        quote: "Pablo is a delight to work with. Pablo successfully supported our international recruitment team with a wide variety of projects ranging across communications, data management, scholarship coordination and conversion activities. In every area, he proved to be versatile and an excellent communicator. Pablo is a valuable asset to our team and is exceptionally reliable, prompt and competent. Pablo recently aided our team by speaking at a partners conference about his student experience with multiple stakeholders fluently, confidently and convincingly. Pablo is a helpful, energetic and dedicated team member and I am happy to give my hearty recommendation.",
+        avatar: Sophie,
+        name: 'Sophie Patterson',
+        profession: 'International Projects Officer @ The University of Edinburgh'
         }
     ]
-
-
 
     export default data

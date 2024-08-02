@@ -1,4 +1,4 @@
-import Card from "../../components/Card"
+import Card from "../../components/Card";
 
 const Testimonial = ({testimonial}) => {
   return (
@@ -17,4 +17,4 @@ const Testimonial = ({testimonial}) => {
   )
 }
 
-export default Testimonial
+export default Testimonial;
