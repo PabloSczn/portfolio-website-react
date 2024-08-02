@@ -60,7 +60,7 @@ const data = [
           This cool portfolio you are looking at! It includes detailed descriptions, images, and links to my work.
           Built with React.js, CSS, and HTML.
         `,
-        demo: 'https://github.com/PabloSczn/portfolio-website-react',
+        demo: 'https://pablosancheznarro.com/',
         github: 'https://github.com/PabloSczn/portfolio-website-react',
         icon: <><FaReact /><TbFileTypeCss /><FaHtml5 /></> // Adding the icons for React, CSS, and HTML
     },
