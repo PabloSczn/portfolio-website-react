@@ -35,33 +35,36 @@
 .testimonial__client {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; /* Center the client details */
     gap: 1rem;
     margin-top: 1rem;
     flex-shrink: 0; /* Ensure fixed position */
+    max-width: 700px; /* Fixed width for the client details */
+    margin: auto; /* Center the client details */
 }
 
 .testimonial__client-avatar {
-    width: 3.5rem;
-    height: 3.5rem; /* Ensure square aspect ratio */
-    border-radius: var(--border-radius-2);
+    width: 3.5rem; /* Fixed width */
+    height: 3.5rem; /* Fixed height */
+    border-radius: 50%; /* Make it circular */
     overflow: hidden;
     transition: var(--transition);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0; /* Ensure the avatar keeps its size */
 }
 
 .testimonial__client-avatar img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; /* Ensure the image covers the container without distortion */
 }
 
 .testimonial__client-details {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start; /* Align text to the start */
     text-align: left;
 }
 
