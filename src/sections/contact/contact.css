@@ -107,6 +107,10 @@
 
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
+    #contact{
+        padding: 1.5rem;
+    }
+
     .contact__links {
         gap: 1rem;
     }
