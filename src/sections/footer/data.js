@@ -13,7 +13,7 @@ export const links = [
 export const socials = [
     { id: 1, link: 'mailto:sancheznarro.pablo@gmail.com', icon: <HiOutlineMail /> },
     { id: 2, link: 'https://www.linkedin.com/in/pablosanchezn/', icon: <FaLinkedinIn /> },
-    { id: 3, link: 'https://wa.me/+447874932115', icon: <FaWhatsapp /> },
+    { id: 3, link: 'https://wa.me/+34684710945', icon: <FaWhatsapp /> },
     { id: 4, link: 'https://github.com/PabloSczn', icon: <AiFillGithub /> }
 ];
 
