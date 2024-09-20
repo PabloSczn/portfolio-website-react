@@ -9,7 +9,7 @@
 }
 
 :root {
-    --primary-hue: 32; /* Adjusted for Deep Autumn palette */
+    --primary-hue: 32; /* Deep Autumn palette */
     --black-lightness: 15%;
     --dark-lightness: 44%;
     --light-lightness: 94%;
