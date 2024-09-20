@@ -21,7 +21,7 @@ const data = [
             id: 3,
             quote: "Working with Pablo is a guarantee of having a skilled team player onboard: always helpful and never backing down even from the most head-scratching bugs. His ability to research new subjects deeply helped us quite a lot at TaxCoder when developing our MVP.",
             avatar: DavidePaci,
-            name: 'Sophie Patterson',
+            name: 'Davide Paci',
             profession: 'Software Engineer @thinkin'
         }
     ]
