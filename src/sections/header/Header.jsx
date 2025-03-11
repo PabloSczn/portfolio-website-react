@@ -21,7 +21,7 @@ const Header = () => {
         </div>
         <h3 data-aos="fade-up">Pablo Sanchez Narro</h3>
         <p data-aos="fade-up">
-          Software Engineer @ Taxcoder | BEng (Hons) Software Engineer
+          Software Engineer III @ FanDuel
         </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#portfolio" className="btn primary" aria-label="View my work">My Work</a>
