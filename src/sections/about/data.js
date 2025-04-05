@@ -17,7 +17,7 @@ const data = [
         id: 3,
         icon: <FaAward />,
         title: 'Experience',
-        desc: '2+ years of experience delivering high-quality, reliable solutions'
+        desc: '3+ years of experience delivering high-quality, reliable solutions'
     }
 ];
 
