@@ -19,6 +19,9 @@ jobs:
       - name: 🛠️ Build Website
         run: npm run build
 
+      - name: 📝 List build folder
+        run: ls -la ./build/
+
       - name: 📂 Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -27,3 +30,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: /
           local-dir: ./build/
+          deleteRemoved: true
