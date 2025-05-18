@@ -1,8 +1,11 @@
-name: 🚀 Deploy
+name: 🚀 Deploy to GH Pages
 
 on:
   push:
     branches: [ master ]
+
+permissions:
+  contents: write
 
 jobs:
   deploy:
@@ -21,7 +24,8 @@ jobs:
         run: npm run build
 
       - name: 🚀 Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v5
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+          publish_branch: gh-pages
