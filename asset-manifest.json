@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21212c6a.css",
+    "main.js": "/static/js/main.583f0f63.js",
+    "static/media/GoodCamps.jpg": "/static/media/GoodCamps.ed8f14f93fa79cd57e0a.jpg",
+    "static/media/xai-image.jpg": "/static/media/xai-image.19d301b1d7193edb55f0.jpg",
+    "static/media/header.jpg": "/static/media/header.0e849186b1ecd38048ec.jpg",
+    "static/media/davide-paci.jpg": "/static/media/davide-paci.b5a5113f4a4b192cd1cd.jpg",
+    "static/media/about.jpg": "/static/media/about.acb167967c82d8a7076e.jpg",
+    "static/media/davide-pollicino.jpg": "/static/media/davide-pollicino.bc83a4a42ea198176c11.jpg",
+    "static/media/portfolio.jpg": "/static/media/portfolio.a1dff90ec961a0184b75.jpg",
+    "static/media/GreyStories.jpeg": "/static/media/GreyStories.084c6b1fd2297c19ce51.jpeg",
+    "static/media/PabloSanchezNarroCV.pdf": "/static/media/PabloSanchezNarroCV.ce007131268b0cf194b0.pdf",
+    "static/media/sophie-patterson.jpg": "/static/media/sophie-patterson.dffad2e1bbaa4d41c1a9.jpg",
+    "static/media/azure-badge.png": "/static/media/azure-badge.1d34d1de6590f8502950.png",
+    "static/media/caverns.png": "/static/media/caverns.5e234c6374bb0653cce2.png",
+    "static/media/sudoku.png": "/static/media/sudoku.b89ba83133d9cd570459.png",
+    "index.html": "/index.html",
+    "main.21212c6a.css.map": "/static/css/main.21212c6a.css.map",
+    "main.583f0f63.js.map": "/static/js/main.583f0f63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21212c6a.css",
+    "static/js/main.583f0f63.js"
+  ]
+}
