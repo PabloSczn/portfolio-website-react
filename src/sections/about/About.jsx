@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import AboutImage from '../../assets/about.jpg';
-import BadgeImage from '../../assets/azure-badge.png'; // Import badge image
+import AzureBadgeImage from '../../assets/azure-badge.png';
+import AwsBadgeImage from '../../assets/aws_solutions_architect-badge.png';
 import CV from '../../assets/PabloSanchezNarroCV.pdf';
 import { HiDownload } from 'react-icons/hi';
 import data from './data';
@@ -41,9 +42,16 @@ const About = () => {
             I thrive on a "get things done" attitude, taking ownership of projects and with a deep understanding of engineering fundamentals.
             I have a track record of working on projects that exceed expectations, I'm here to make a significant impact!
           </p>
-          <div className="about__badge" data-aos="fade-in">
-            <img src={BadgeImage} alt="Microsoft Azure AI Engineer Badge" />
-            <p>Microsoft Certified: Azure AI Engineer AI-102 exam.</p>
+          <div className="about__certifications" data-aos="fade-in">
+            <h5 className="about__certifications-title">Certifications</h5>
+            <div className="about__certifications-grid">
+              <div className="about__badge">
+                <img src={AzureBadgeImage} alt="Microsoft Azure AI Engineer Associate badge" />
+              </div>
+              <div className="about__badge">
+                <img src={AwsBadgeImage} alt="AWS Certified Solutions Architect badge" />
+              </div>
+            </div>
           </div>
           <a href={CV} download className='btn primary' aria-label="Download CV">
             Download CV <HiDownload />

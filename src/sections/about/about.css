@@ -57,16 +57,43 @@
     margin-top: 2.5rem;
 }
 
+.about__certifications {
+    margin-top: 2rem;
+    padding: 1.2rem;
+    border: 1px solid hsl(var(--primary-hue), 50%, 80%);
+    border-radius: var(--border-radius-1);
+    background: linear-gradient(160deg, var(--color-white), hsl(var(--primary-hue), 60%, 95%));
+}
+
+.about__certifications-title {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 1rem;
+}
+
+.about__certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
 .about__badge {
     display: flex;
     align-items: center;
-    margin-top: 2rem;
+    justify-content: center;
+    min-height: 7.5rem;
+    padding: 1rem;
+    border: 1px solid hsl(var(--primary-hue), 50%, 82%);
+    border-radius: var(--border-radius-2);
+    background: var(--color-white);
+    box-shadow: 0 10px 22px hsla(var(--primary-hue), 30%, 25%, 0.08);
 }
 
 .about__badge img {
-    width: 90px; /* Adjust size as needed */
+    width: 100%;
+    max-width: 8rem;
     height: auto;
-    margin-right: 1rem;
+    object-fit: contain;
 }
 
 /* MEDIA QUERIES (tablets) */
@@ -90,6 +117,16 @@
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+    }
+
+    .about__certifications {
+        margin-top: 1.6rem;
+        padding: 1rem;
+    }
+
+    .about__certifications-grid {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
     }
 
     .about__right .btn {
