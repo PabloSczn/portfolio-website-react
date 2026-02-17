@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.21212c6a.css",
+    "main.css": "./static/css/main.5d430efa.css",
     "main.js": "./static/js/main.0b00e7b0.js",
     "static/media/GoodCamps.jpg": "./static/media/GoodCamps.ed8f14f93fa79cd57e0a.jpg",
     "static/media/xai-image.jpg": "./static/media/xai-image.19d301b1d7193edb55f0.jpg",
@@ -16,11 +16,11 @@
     "static/media/caverns.png": "./static/media/caverns.5e234c6374bb0653cce2.png",
     "static/media/sudoku.png": "./static/media/sudoku.b89ba83133d9cd570459.png",
     "index.html": "./index.html",
-    "main.21212c6a.css.map": "./static/css/main.21212c6a.css.map",
+    "main.5d430efa.css.map": "./static/css/main.5d430efa.css.map",
     "main.0b00e7b0.js.map": "./static/js/main.0b00e7b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.21212c6a.css",
+    "static/css/main.5d430efa.css",
     "static/js/main.0b00e7b0.js"
   ]
 }
