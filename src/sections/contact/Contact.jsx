@@ -5,6 +5,10 @@ import contacts from './data';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+const EMAILJS_SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+
 const Contact = () => {
   const form = useRef();
 
@@ -18,7 +22,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_mw3xzci', 'template_v5uzlia', form.current, 'UERgo7qFzewmQWazz')
+    if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
+      console.error('Missing EmailJS environment variables.');
+      alert('Email service is not configured correctly.');
+      return;
+    }
+
+    emailjs.sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, form.current, EMAILJS_PUBLIC_KEY)
       .then((result) => {
         console.log(result.text);
         alert("Message Sent Successfully!");
