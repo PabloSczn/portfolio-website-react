@@ -23,7 +23,7 @@ header {
 }
 
 .header__container p {
-    width: 35rem;
+    width: min(100%, 35rem);
     text-align: center;
     margin: 0.6rem 0 2rem;
 }

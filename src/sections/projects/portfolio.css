@@ -120,4 +120,13 @@
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
+
+    .portfolio__project-cta {
+        flex-wrap: wrap;
+        gap: 0.75rem;
+    }
+
+    .portfolio__project-icons {
+        width: 100%;
+    }
 }
