@@ -77,6 +77,21 @@
     gap: 1rem;
 }
 
+.about__badge-link {
+    display: block;
+    border-radius: var(--border-radius-2);
+    transition: var(--transition);
+}
+
+.about__badge-link:hover {
+    transform: translateY(-0.2rem);
+}
+
+.about__badge-link:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 0.2rem;
+}
+
 .about__badge {
     display: flex;
     align-items: center;

@@ -45,12 +45,28 @@ const About = () => {
           <div className="about__certifications" data-aos="fade-in">
             <h5 className="about__certifications-title">Certifications</h5>
             <div className="about__certifications-grid">
-              <div className="about__badge">
-                <img src={AzureBadgeImage} alt="Microsoft Azure AI Engineer Associate badge" />
-              </div>
-              <div className="about__badge">
-                <img src={AwsBadgeImage} alt="AWS Certified Solutions Architect badge" />
-              </div>
+              <a
+                className="about__badge-link"
+                href="https://learn.microsoft.com/en-us/users/pablosanchez-5034/credentials/40811831e406a186?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open Microsoft certification page in a new tab"
+              >
+                <div className="about__badge">
+                  <img src={AzureBadgeImage} alt="Microsoft Azure AI Engineer Associate badge" />
+                </div>
+              </a>
+              <a
+                className="about__badge-link"
+                href="https://www.credly.com/badges/a6e48df6-dfd2-406d-b74c-44f99951fb2c/linked_in_profile"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open AWS certification page in a new tab"
+              >
+                <div className="about__badge">
+                  <img src={AwsBadgeImage} alt="AWS Certified Solutions Architect badge" />
+                </div>
+              </a>
             </div>
           </div>
           <a href={CV} download className='btn primary' aria-label="Download CV">
