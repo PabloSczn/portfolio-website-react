@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>TrulyBudget Privacy Policy | Pablo Sanchez Narro</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            color-scheme: light;
+            --color-bg: #f4ede5;
+            --color-bg-accent: #fbe0c0;
+            --color-surface: rgba(255, 252, 247, 0.96);
+            --color-surface-strong: #ffffff;
+            --color-text: #2d1e12;
+            --color-muted: #6b5848;
+            --color-accent: #c6792c;
+            --color-accent-deep: #8b4f1b;
+            --color-border: rgba(91, 58, 31, 0.12);
+            --shadow-soft: 0 24px 70px rgba(84, 50, 20, 0.14);
+            --radius-lg: 28px;
+            --radius-md: 18px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: var(--color-text);
+            background:
+                radial-gradient(circle at top left, rgba(251, 224, 192, 0.95), transparent 38%),
+                linear-gradient(180deg, #fbf5ef 0%, var(--color-bg) 100%);
+            line-height: 1.7;
+        }
+
+        a {
+            color: var(--color-accent-deep);
+        }
+
+        a:hover {
+            color: var(--color-accent);
+        }
+
+        main {
+            min-height: 100vh;
+            padding: clamp(1.25rem, 4vw, 3rem);
+        }
+
+        .policy-shell {
+            max-width: 920px;
+            margin: 0 auto;
+        }
+
+        .policy-home {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1.25rem;
+            padding: 0.7rem 1rem;
+            border: 1px solid var(--color-border);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.7);
+            color: var(--color-accent-deep);
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-decoration: none;
+            backdrop-filter: blur(10px);
+        }
+
+        .policy-home:hover {
+            background: var(--color-surface-strong);
+        }
+
+        .policy-card {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+            padding: clamp(1.5rem, 4vw, 3rem);
+            box-shadow: var(--shadow-soft);
+            backdrop-filter: blur(14px);
+        }
+
+        .policy-header {
+            margin-bottom: 2rem;
+        }
+
+        .policy-kicker {
+            display: inline-block;
+            margin: 0 0 0.85rem;
+            padding: 0.35rem 0.75rem;
+            border-radius: 999px;
+            background: rgba(198, 121, 44, 0.12);
+            color: var(--color-accent-deep);
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            margin: 0 0 0.75rem;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            line-height: 1.05;
+        }
+
+        h2 {
+            margin: 0 0 0.9rem;
+            font-size: clamp(1.4rem, 3vw, 1.85rem);
+            line-height: 1.2;
+        }
+
+        h3 {
+            margin: 1.4rem 0 0.6rem;
+            font-size: 1.05rem;
+            line-height: 1.35;
+        }
+
+        p {
+            margin: 0 0 1rem;
+        }
+
+        ul {
+            margin: 0.8rem 0 0;
+            padding-left: 1.25rem;
+        }
+
+        li + li {
+            margin-top: 0.45rem;
+        }
+
+        section + section {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .policy-lead {
+            color: var(--color-muted);
+            font-size: 1.02rem;
+        }
+
+        .policy-meta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0 0;
+        }
+
+        .policy-meta-card {
+            padding: 1rem 1.1rem;
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-md);
+            background: rgba(255, 255, 255, 0.72);
+        }
+
+        .policy-meta-card strong {
+            display: block;
+            margin-bottom: 0.35rem;
+            font-size: 0.95rem;
+        }
+
+        code {
+            padding: 0.14rem 0.38rem;
+            border-radius: 0.45rem;
+            background: rgba(198, 121, 44, 0.12);
+            color: var(--color-accent-deep);
+            font-family: ui-monospace, SFMono-Regular, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace;
+            font-size: 0.92em;
+        }
+
+        .policy-footer {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--color-border);
+            color: var(--color-muted);
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 640px) {
+            main {
+                padding: 1rem;
+            }
+
+            .policy-card {
+                border-radius: 22px;
+                padding: 1.25rem;
+            }
+
+            .policy-home {
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="policy-shell">
+            <a class="policy-home" href="../">Back to pablosancheznarro.com</a>
+
+            <article class="policy-card">
+                <header class="policy-header">
+                    <p class="policy-kicker">TrulyBudget</p>
+                    <h1>Privacy Policy for TrulyBudget</h1>
+                    <p class="policy-lead">Effective date: <time datetime="2026-03-22">March 22, 2026</time></p>
+                    <p>This Privacy Policy explains how TrulyBudget ("the app", "we", "us", or "our") handles information when you use the Android version of TrulyBudget distributed through Google Play.</p>
+                    <p>TrulyBudget is a local-first budgeting app. It is designed to work without creating an account or sending your budget data to a developer-operated server. However, the Android release published to Google Play uses Google AdMob to display ads, and Google or its partners may process certain device and advertising-related data for ad delivery, measurement, fraud prevention, and related purposes.</p>
+                    <p>If you have any questions about this Privacy Policy or the app, you can contact us at <a href="mailto:sancheznarro.pablo@gmail.com">sancheznarro.pablo@gmail.com</a>.</p>
+
+                    <div class="policy-meta">
+                        <div class="policy-meta-card">
+                            <strong>App name</strong>
+                            <span>TrulyBudget</span>
+                        </div>
+                        <div class="policy-meta-card">
+                            <strong>Android package name</strong>
+                            <span><code>com.pablosanchez.trulybudget</code></span>
+                        </div>
+                    </div>
+                </header>
+
+                <section>
+                    <h2>1. Information Processed by the App</h2>
+
+                    <h3>Information you enter into TrulyBudget</h3>
+                    <p>TrulyBudget lets you create and manage budgeting information directly on your device. Depending on how you use the app, this may include:</p>
+                    <ul>
+                        <li>month budgets</li>
+                        <li>income entries</li>
+                        <li>expense entries</li>
+                        <li>category names and category emoji</li>
+                        <li>notes you type for expenses or income</li>
+                        <li>debt carry-forward information between months</li>
+                        <li>selected currency and theme preferences</li>
+                        <li>dismissed in-app tip state</li>
+                    </ul>
+                    <p>This information may include financial information that you choose to enter, such as income amounts, expense amounts, budget allocations, and notes.</p>
+
+                    <h3>Exported files you choose to create</h3>
+                    <p>The app allows you to create exports and backups, including:</p>
+                    <ul>
+                        <li>PDF exports</li>
+                        <li>JPG exports</li>
+                        <li>XLSX exports</li>
+                        <li>ZIP backups containing the raw app data in JSON format</li>
+                    </ul>
+                    <p>These files are created only when you ask the app to create them.</p>
+
+                    <h3>Support communications</h3>
+                    <p>If you contact us by email, we will receive the information you include in your message, such as your email address and the contents of your email.</p>
+                </section>
+
+                <section>
+                    <h2>2. How TrulyBudget Stores Your Data</h2>
+                    <p>TrulyBudget is a local-first app.</p>
+                    <p>Your budgeting data is stored locally on your device in the app's private storage area. We do not require user accounts, and we do not provide cloud sync or a developer-operated backend for storing your budget data.</p>
+                    <p>In practical terms:</p>
+                    <ul>
+                        <li>your budget data stays on your device unless you choose to export or share it</li>
+                        <li>the developer does not automatically receive your budgets, income entries, expenses, or notes</li>
+                        <li>the app does not connect to your bank account or import bank data</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>3. Ads and Third-Party Services</h2>
+                    <p>The Android release of TrulyBudget published to Google Play uses <strong>Google AdMob</strong> to display ads.</p>
+                    <p>When AdMob is enabled, Google and its partners may collect or receive certain information from your device or app activity in order to:</p>
+                    <ul>
+                        <li>provide and display ads</li>
+                        <li>personalize ads where allowed</li>
+                        <li>measure ad performance</li>
+                        <li>prevent fraud and abuse</li>
+                        <li>comply with legal and policy requirements</li>
+                    </ul>
+                    <p>This information may include items such as:</p>
+                    <ul>
+                        <li>advertising identifiers, including the Android Advertising ID</li>
+                        <li>device and app identifiers</li>
+                        <li>IP address</li>
+                        <li>approximate location derived from IP address or device signals</li>
+                        <li>app interactions related to ads</li>
+                        <li>diagnostic information</li>
+                    </ul>
+                    <p>TrulyBudget also uses Google's consent tools where required. Depending on your region, you may be shown a consent message and, when applicable, a "Privacy choices" option inside the app so you can review or update certain ad privacy choices.</p>
+                    <p>Google's handling of data is governed by Google's own policies. You can review them here:</p>
+                    <ul>
+                        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">Google Privacy Policy</a></li>
+                        <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noreferrer">Google Ad Technology</a></li>
+                        <li><a href="https://adssettings.google.com/" target="_blank" rel="noreferrer">Google Ads Settings</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>4. Permissions and Network Use</h2>
+                    <p>The Android app declares the <code>INTERNET</code> permission.</p>
+                    <p>This is used primarily to:</p>
+                    <ul>
+                        <li>request and display ads from AdMob</li>
+                        <li>load consent and privacy messaging from Google's systems when required</li>
+                        <li>support basic external link handling initiated by the user</li>
+                    </ul>
+                    <p>TrulyBudget does <strong>not</strong> request permissions for contacts, camera, microphone, or precise location for its core budgeting features.</p>
+                </section>
+
+                <section>
+                    <h2>5. How We Use Information</h2>
+                    <p>We use information processed by the app to:</p>
+                    <ul>
+                        <li>provide the budgeting features you choose to use</li>
+                        <li>save your budget data locally on your device</li>
+                        <li>generate exports and backups when you request them</li>
+                        <li>display ads through AdMob in the Google Play release</li>
+                        <li>respond to support or feedback emails you send</li>
+                        <li>maintain, improve, and secure the app</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>6. When Information Is Shared</h2>
+                    <p>We do not sell your personal information.</p>
+                    <p>We do not automatically send your budget entries, notes, or backup files to the developer.</p>
+                    <p>Information may be shared in the following situations:</p>
+                    <ul>
+                        <li><strong>With Google AdMob and related Google services:</strong> device and advertising-related data may be processed as described above for ads, consent, fraud prevention, and measurement.</li>
+                        <li><strong>When you choose to export or share files:</strong> if you create a PDF, JPG, XLSX, or ZIP backup and then share it using another app or service, that file will be handled by the destination you choose, and its privacy practices will apply.</li>
+                        <li><strong>When you contact us:</strong> your email provider and ours will process your message as part of delivering email.</li>
+                        <li><strong>If required by law:</strong> we may disclose information if we are legally required to do so.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>7. Data Retention</h2>
+                    <p>Because TrulyBudget stores budget data locally on your device, that data is generally retained until you delete it.</p>
+                    <p>You can remove your local app data by:</p>
+                    <ul>
+                        <li>using the app's reset feature</li>
+                        <li>clearing app data through your device settings</li>
+                        <li>uninstalling the app</li>
+                    </ul>
+                    <p>Exported files and backups you create may remain:</p>
+                    <ul>
+                        <li>in the app's local exports folder until you delete them</li>
+                        <li>in any third-party app, cloud storage service, or destination you choose when sharing or saving them outside the app</li>
+                    </ul>
+                    <p>Data processed by Google AdMob or other Google services is retained according to Google's own policies and practices.</p>
+                </section>
+
+                <section>
+                    <h2>8. Security</h2>
+                    <p>We take reasonable steps within the app design to reduce unnecessary data sharing. For example, budgeting data is stored locally rather than on a developer-operated server.</p>
+                    <p>However, no method of storage or transmission is completely secure. You are responsible for helping protect access to your device and for reviewing where you choose to export or share your files.</p>
+                </section>
+
+                <section>
+                    <h2>9. Children's Privacy</h2>
+                    <p>TrulyBudget is a budgeting app intended for a general audience and is <strong>not directed to children under 13</strong>.</p>
+                    <p>We do not knowingly design the app to collect personal information from children under 13. If you believe a child has provided personal information through direct contact with us, please email <a href="mailto:sancheznarro.pablo@gmail.com">sancheznarro.pablo@gmail.com</a> and we will review the request.</p>
+                    <p>If you plan to make TrulyBudget specifically available to children under 13, this Privacy Policy and the app's ads setup may need additional changes to comply with Google Play Families and child-directed advertising requirements.</p>
+                </section>
+
+                <section>
+                    <h2>10. International Processing</h2>
+                    <p>If you use TrulyBudget, third-party services such as Google AdMob may process information on servers located in countries other than your own. Those third parties handle such processing under their own terms, safeguards, and privacy policies.</p>
+                </section>
+
+                <section>
+                    <h2>11. Your Choices</h2>
+                    <p>Depending on how you use the app and where you are located, you may have the following choices:</p>
+                    <ul>
+                        <li>You can choose what budgeting information to enter into the app.</li>
+                        <li>You can delete or reset your local data from within the app.</li>
+                        <li>You can uninstall the app at any time.</li>
+                        <li>You can choose whether to export or share your data.</li>
+                        <li>You can review available ad/privacy options shown in the app when required.</li>
+                        <li>You can manage advertising preferences through your device settings and Google's ad settings tools.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>12. Changes to This Privacy Policy</h2>
+                    <p>We may update this Privacy Policy from time to time to reflect changes to the app, legal requirements, or third-party services.</p>
+                    <p>When we make material changes, we will update the effective date at the top of this page. Continued use of the app after an updated Privacy Policy is posted means the updated policy will apply going forward.</p>
+                </section>
+
+                <section>
+                    <h2>13. Contact</h2>
+                    <p>If you have questions, feedback, or privacy-related requests, contact:</p>
+                    <p><a href="mailto:sancheznarro.pablo@gmail.com">sancheznarro.pablo@gmail.com</a></p>
+                </section>
+
+                <footer class="policy-footer">
+                    <p>This page is provided as a standalone privacy policy for the TrulyBudget Android app distributed through Google Play.</p>
+                </footer>
+            </article>
+        </div>
+    </main>
+</body>
+</html>
