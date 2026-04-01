@@ -1,12 +1,11 @@
 import SudokuImage from '../../assets/sudoku.png';
-import GreyStoriesImage from '../../assets/GreyStories.jpeg';
 import GoodCampsImage from '../../assets/GoodCamps.jpg';
 import PortfolioImage from '../../assets/portfolio.jpg';
 import CavernsImage from '../../assets/caverns.png';
 import XAI from '../../assets/xai-image.jpg';
+import TrulyBudgetImage from '../../assets/trulybudget.png';
 import { FaC } from "react-icons/fa6"; // Importing C language icon
 import { DiAndroid } from "react-icons/di"; // Importing Android icon
-import { FaJava } from 'react-icons/fa'; // Importing Java icon
 import { FaNodeJs } from 'react-icons/fa'; // Importing Node.js icon
 import { SiMongodb } from 'react-icons/si'; // Importing MongoDB icon
 import { SiExpress } from 'react-icons/si'; // Importing Express.js icon
@@ -15,6 +14,7 @@ import { TbFileTypeCss } from "react-icons/tb"; // Importing CSS3 icon
 import { FaHtml5 } from 'react-icons/fa'; // Importing HTML5 icon
 import { FaPython } from 'react-icons/fa'; // Importing Python icon
 import { FaBrain } from "react-icons/fa"; // Importing AI (Brain) icon
+import { SiFlutter } from 'react-icons/si'; // Importing Flutter icon
 
 const data = [
     {
@@ -30,17 +30,17 @@ const data = [
         icon: <><FaPython /><FaBrain /></> // Adding the icons for Python and AI
     },
     {
-        id: 2,
-        categories: ['web', 'fullstack'],
-        image: GoodCampsImage,
-        title: "GoodCamps",
+        id: 6,
+        categories: ['mobile'],
+        image: TrulyBudgetImage,
+        title: "TrulyBudget",
         desc: `
-          GoodCamps is a web application designed to allow users to view, add, edit, and delete campground information.
-          Built with Node.js, Express, MongoDB, and EJS.
+          TrulyBudget is a local-first monthly budgeting app focused on helping users plan income, allocate categories, track spending, and stay in control month by month.
+          Built with Flutter for Android, with support for yearly overviews and exporting reports and backups.
         `,
-        demo: 'https://github.com/PabloSczn/camp-reviews-project',
-        github: 'https://github.com/PabloSczn/camp-reviews-project',
-        icon: <><FaNodeJs /><SiExpress /><SiMongodb /></> // Adding the icons for Node.js, Express, and MongoDB
+        demo: 'https://play.google.com/store/apps/details?id=com.pablosanchez.trulybudget',
+        github: 'https://github.com/PabloSczn/truly-budget',
+        icon: <><SiFlutter /><DiAndroid /></> // Adding the icons for Flutter and Android
     },
     {
       id: 3,
@@ -78,17 +78,17 @@ const data = [
         icon: <><FaReact /><TbFileTypeCss /><FaHtml5 /></> // Adding the icons for React, CSS, and HTML
     },
     {
-        id: 6,
-        categories: ['mobile'],
-        image: GreyStoriesImage,
-        title: "GreyStories Android App",
+        id: 2,
+        categories: ['web', 'fullstack'],
+        image: GoodCampsImage,
+        title: "GoodCamps",
         desc: `
-          Grey Stories is a mobile adaptation of the riddle card game, Dark Stories. It allows users to read, archive, and like their favorite stories.
-          Developed in Android Studio with Java. Features community story submissions.
+          GoodCamps is a web application designed to allow users to view, add, edit, and delete campground information.
+          Built with Node.js, Express, MongoDB, and EJS.
         `,
-        demo: 'https://youtube.com/shorts/jl3suBvp4SQ', 
-        github: 'https://github.com/PabloSczn/GreyStories-app',
-        icon: <><DiAndroid /><FaJava /></> // Adding the icons for Android and Java
+        demo: 'https://github.com/PabloSczn/camp-reviews-project',
+        github: 'https://github.com/PabloSczn/camp-reviews-project',
+        icon: <><FaNodeJs /><SiExpress /><SiMongodb /></> // Adding the icons for Node.js, Express, and MongoDB
     },
 ];
 
