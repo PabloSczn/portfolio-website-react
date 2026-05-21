@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>TrulySort Privacy Policy | Pablo Sanchez Narro</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            color-scheme: light;
+            --color-bg: #edf7f6;
+            --color-bg-accent: #ccefeb;
+            --color-surface: rgba(252, 254, 253, 0.96);
+            --color-surface-strong: #ffffff;
+            --color-text: #113130;
+            --color-muted: #54716f;
+            --color-accent: #0f9f8f;
+            --color-accent-deep: #08685f;
+            --color-border: rgba(17, 49, 48, 0.12);
+            --shadow-soft: 0 24px 70px rgba(17, 49, 48, 0.14);
+            --radius-lg: 28px;
+            --radius-md: 18px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: var(--color-text);
+            background:
+                radial-gradient(circle at top left, rgba(204, 239, 235, 0.95), transparent 38%),
+                linear-gradient(180deg, #f7fbfa 0%, var(--color-bg) 100%);
+            line-height: 1.7;
+        }
+
+        a {
+            color: var(--color-accent-deep);
+        }
+
+        a:hover {
+            color: var(--color-accent);
+        }
+
+        main {
+            min-height: 100vh;
+            padding: clamp(1.25rem, 4vw, 3rem);
+        }
+
+        .policy-shell {
+            max-width: 920px;
+            margin: 0 auto;
+        }
+
+        .policy-home {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1.25rem;
+            padding: 0.7rem 1rem;
+            border: 1px solid var(--color-border);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.7);
+            color: var(--color-accent-deep);
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-decoration: none;
+            backdrop-filter: blur(10px);
+        }
+
+        .policy-home:hover {
+            background: var(--color-surface-strong);
+        }
+
+        .policy-card {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+            padding: clamp(1.5rem, 4vw, 3rem);
+            box-shadow: var(--shadow-soft);
+            backdrop-filter: blur(14px);
+        }
+
+        .policy-header {
+            margin-bottom: 2rem;
+        }
+
+        .policy-kicker {
+            display: inline-block;
+            margin: 0 0 0.85rem;
+            padding: 0.35rem 0.75rem;
+            border-radius: 999px;
+            background: rgba(15, 159, 143, 0.12);
+            color: var(--color-accent-deep);
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            margin: 0 0 0.75rem;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            line-height: 1.05;
+        }
+
+        h2 {
+            margin: 0 0 0.9rem;
+            font-size: clamp(1.4rem, 3vw, 1.85rem);
+            line-height: 1.2;
+        }
+
+        h3 {
+            margin: 1.4rem 0 0.6rem;
+            font-size: 1.05rem;
+            line-height: 1.35;
+        }
+
+        p {
+            margin: 0 0 1rem;
+        }
+
+        ul {
+            margin: 0.8rem 0 0;
+            padding-left: 1.25rem;
+        }
+
+        li + li {
+            margin-top: 0.45rem;
+        }
+
+        section + section {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .policy-lead {
+            color: var(--color-muted);
+            font-size: 1.02rem;
+        }
+
+        .policy-meta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0 0;
+        }
+
+        .policy-meta-card {
+            padding: 1rem 1.1rem;
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-md);
+            background: rgba(255, 255, 255, 0.72);
+        }
+
+        .policy-meta-card strong {
+            display: block;
+            margin-bottom: 0.35rem;
+            font-size: 0.95rem;
+        }
+
+        code {
+            padding: 0.14rem 0.38rem;
+            border-radius: 0.45rem;
+            background: rgba(15, 159, 143, 0.12);
+            color: var(--color-accent-deep);
+            font-family: ui-monospace, SFMono-Regular, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace;
+            font-size: 0.92em;
+        }
+
+        .policy-footer {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--color-border);
+            color: var(--color-muted);
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 640px) {
+            main {
+                padding: 1rem;
+            }
+
+            .policy-card {
+                border-radius: 22px;
+                padding: 1.25rem;
+            }
+
+            .policy-home {
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="policy-shell">
+            <a class="policy-home" href="../">Back to pablosancheznarro.com</a>
+
+            <article class="policy-card">
+                <header class="policy-header">
+                    <p class="policy-kicker">TrulySort</p>
+                    <h1>Privacy Policy for TrulySort</h1>
+                    <p class="policy-lead">Effective date: <time datetime="2026-05-21">May 21, 2026</time></p>
+                    <p>This Privacy Policy explains how TrulySort ("the app", "we", "us", or "our") handles information when you use TrulySort.</p>
+                    <p>TrulySort is a local-first photo sorting app. It helps you review photos on your device, keep photos where they are, remove photos through the platform delete flow, move photos to albums or folders you choose, and create albums. The app is designed to work without creating an account or sending your photo library to a developer-operated server. However, the Android release published to Google Play uses Google AdMob to display ads, and Google or its partners may process certain device and advertising-related data for ad delivery, measurement, fraud prevention, and related purposes.</p>
+                    <p>If you have any questions about this Privacy Policy or the app, you can contact us at <a href="mailto:sancheznarro.pablo@gmail.com">sancheznarro.pablo@gmail.com</a>.</p>
+
+                    <div class="policy-meta">
+                        <div class="policy-meta-card">
+                            <strong>App name</strong>
+                            <span>TrulySort</span>
+                        </div>
+                        <div class="policy-meta-card">
+                            <strong>Android package name</strong>
+                            <span><code>com.trulysort.app</code></span>
+                        </div>
+                        <div class="policy-meta-card">
+                            <strong>iOS bundle identifier</strong>
+                            <span><code>com.pablosanchez.trulySortApp</code></span>
+                        </div>
+                    </div>
+                </header>
+
+                <section>
+                    <h2>1. Information Processed by the App</h2>
+
+                    <h3>Photo library information</h3>
+                    <p>TrulySort needs photo-library access to provide its core sorting features. Depending on your device, operating system, and permission choices, the app may process information such as:</p>
+                    <ul>
+                        <li>local photo identifiers used by Android MediaStore or Apple Photos</li>
+                        <li>photo file names or display names</li>
+                        <li>album, folder, or relative path names</li>
+                        <li>photo creation or date-added information</li>
+                        <li>album names and photo counts</li>
+                        <li>thumbnail image data shown inside the app while you sort</li>
+                    </ul>
+                    <p>This information is used so the app can show your photos, display where each photo currently lives, and perform the sorting actions you choose. The developer does not automatically receive your photos, thumbnails, photo identifiers, album names, or folder names.</p>
+
+                    <h3>Actions you take in TrulySort</h3>
+                    <p>When you use the app, TrulySort processes the choices you make, including:</p>
+                    <ul>
+                        <li>photos you keep where they are</li>
+                        <li>photos you ask the app to remove through the device's photo delete flow</li>
+                        <li>photos you ask the app to move to another album or folder</li>
+                        <li>album names you enter when creating a new album</li>
+                        <li>the active album or folder you choose to sort</li>
+                    </ul>
+                    <p>These actions affect your photo library only after you choose them and, where required by the operating system, confirm them through the platform permission or confirmation flow.</p>
+
+                    <h3>App preferences and sorting statistics</h3>
+                    <p>TrulySort stores small amounts of app data locally on your device, including:</p>
+                    <ul>
+                        <li>theme preference</li>
+                        <li>whether the first-run tour has been seen</li>
+                        <li>sorting totals, such as kept, moved, removed, and total sorted counts</li>
+                        <li>local photo identifiers for photos already marked as sorted</li>
+                    </ul>
+
+                    <h3>Support communications</h3>
+                    <p>If you contact us by email, we will receive the information you include in your message, such as your email address and the contents of your email.</p>
+                </section>
+
+                <section>
+                    <h2>2. How TrulySort Stores Your Data</h2>
+                    <p>TrulySort is a local-first app.</p>
+                    <p>The app reads and modifies your photo library only on your device through the operating system's photo APIs. TrulySort does not require user accounts, and we do not provide cloud sync or a developer-operated backend for storing your photos or sorting data.</p>
+                    <p>In practical terms:</p>
+                    <ul>
+                        <li>your photos and albums stay on your device or in the photo storage services you already use, such as your device's photo library or iCloud Photos</li>
+                        <li>the developer does not automatically receive your photos, thumbnails, album names, folder names, or sorting choices</li>
+                        <li>the app does not upload your photo library to a developer-operated server</li>
+                        <li>the app stores app preferences and sorting statistics locally using device storage</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>3. Ads and Third-Party Services</h2>
+                    <p>The Android release of TrulySort published to Google Play uses <strong>Google AdMob</strong> to display ads.</p>
+                    <p>When AdMob is enabled, Google and its partners may collect or receive certain information from your device or app activity in order to:</p>
+                    <ul>
+                        <li>provide and display ads</li>
+                        <li>personalize ads where allowed</li>
+                        <li>measure ad performance</li>
+                        <li>prevent fraud and abuse</li>
+                        <li>comply with legal and policy requirements</li>
+                    </ul>
+                    <p>This information may include items such as:</p>
+                    <ul>
+                        <li>advertising identifiers, including the Android Advertising ID</li>
+                        <li>device and app identifiers</li>
+                        <li>IP address</li>
+                        <li>approximate location derived from IP address or device signals</li>
+                        <li>app interactions related to ads</li>
+                        <li>diagnostic information</li>
+                    </ul>
+                    <p>TrulySort also uses Google's consent tools where required. Depending on your region, you may be shown a consent message and, when applicable, a "Privacy choices" option inside the app so you can review or update certain ad privacy choices.</p>
+                    <p>Google's handling of data is governed by Google's own policies. You can review them here:</p>
+                    <ul>
+                        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">Google Privacy Policy</a></li>
+                        <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noreferrer">Google Ad Technology</a></li>
+                        <li><a href="https://adssettings.google.com/" target="_blank" rel="noreferrer">Google Ads Settings</a></li>
+                    </ul>
+                    <p>If you use Apple services such as iCloud Photos, Apple may process photo-library data under Apple's own privacy terms when your device retrieves or manages photos through the operating system. TrulySort does not control Apple's processing of iCloud Photos data.</p>
+                </section>
+
+                <section>
+                    <h2>4. Permissions and Network Use</h2>
+                    <p>TrulySort requests photo-library access because sorting photos is the app's core feature.</p>
+                    <p>On Android, this may include permissions such as <code>READ_MEDIA_IMAGES</code>, <code>READ_MEDIA_VISUAL_USER_SELECTED</code>, <code>READ_EXTERNAL_STORAGE</code>, and, on older Android versions, <code>WRITE_EXTERNAL_STORAGE</code>. On iOS, this may include photo-library read and add permissions.</p>
+                    <p>The Android app also declares the <code>INTERNET</code> permission.</p>
+                    <p>This is used primarily to:</p>
+                    <ul>
+                        <li>request and display ads from AdMob</li>
+                        <li>load consent and privacy messaging from Google's systems when required</li>
+                        <li>support user-initiated contact or external actions that are handled by your device or another app</li>
+                    </ul>
+                    <p>TrulySort does <strong>not</strong> request permissions for contacts, camera, microphone, or precise location for its core photo sorting features.</p>
+                </section>
+
+                <section>
+                    <h2>5. How We Use Information</h2>
+                    <p>We use information processed by the app to:</p>
+                    <ul>
+                        <li>show your photos and their current album or folder location</li>
+                        <li>let you keep, remove, move, and organize photos on your device</li>
+                        <li>let you create albums or folders where supported by the operating system</li>
+                        <li>save local preferences and sorting statistics on your device</li>
+                        <li>display ads through AdMob in the Google Play release</li>
+                        <li>respond to support or feedback emails you send</li>
+                        <li>maintain, improve, and secure the app</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>6. When Information Is Shared</h2>
+                    <p>We do not sell your personal information.</p>
+                    <p>We do not automatically send your photos, thumbnails, photo identifiers, album names, folder names, or sorting statistics to the developer.</p>
+                    <p>Information may be shared in the following situations:</p>
+                    <ul>
+                        <li><strong>With Google AdMob and related Google services:</strong> device and advertising-related data may be processed as described above for ads, consent, fraud prevention, and measurement.</li>
+                        <li><strong>With your operating system and photo library provider:</strong> Android, Apple Photos, iCloud Photos, or similar system services may process photo-library data when granting access, showing photos, moving photos, creating albums, or deleting photos.</li>
+                        <li><strong>When you choose photo actions:</strong> if you delete, move, or create albums, those changes are applied to your device photo library or photo storage service according to the platform's behavior.</li>
+                        <li><strong>When you contact us:</strong> your email provider and ours will process your message as part of delivering email.</li>
+                        <li><strong>If required by law:</strong> we may disclose information if we are legally required to do so.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>7. Data Retention</h2>
+                    <p>Because TrulySort works locally with your device photo library, your photos generally remain in your photo library until you delete them, move them, or manage them through your device or photo storage provider.</p>
+                    <p>TrulySort keeps app preferences and sorting statistics locally until you delete them.</p>
+                    <p>You can remove local TrulySort app data by:</p>
+                    <ul>
+                        <li>using the app's reset feature</li>
+                        <li>clearing app data through your device settings</li>
+                        <li>uninstalling the app</li>
+                    </ul>
+                    <p>Resetting app data clears saved sorting totals and preferences, and unloads photo-library data currently held by TrulySort. It does not undo photo moves, restore deleted photos, or remove photos from your device photo library.</p>
+                    <p>Photos deleted through the app may remain recoverable for a period of time in your device's trash, bin, or Recently Deleted area, depending on your operating system and settings.</p>
+                    <p>Data processed by Google AdMob or other Google services is retained according to Google's own policies and practices.</p>
+                </section>
+
+                <section>
+                    <h2>8. Security</h2>
+                    <p>We take reasonable steps within the app design to reduce unnecessary data sharing. For example, photo sorting is handled locally through the device's photo APIs rather than by uploading your photo library to a developer-operated server.</p>
+                    <p>However, no method of storage or transmission is completely secure. You are responsible for helping protect access to your device and for reviewing which apps and services have access to your photo library.</p>
+                </section>
+
+                <section>
+                    <h2>9. Children's Privacy</h2>
+                    <p>TrulySort is a photo sorting app intended for a general audience and is <strong>not directed to children under 13</strong>.</p>
+                    <p>We do not knowingly design the app to collect personal information from children under 13. If you believe a child has provided personal information through direct contact with us, please email <a href="mailto:sancheznarro.pablo@gmail.com">sancheznarro.pablo@gmail.com</a> and we will review the request.</p>
+                    <p>If you plan to make TrulySort specifically available to children under 13, this Privacy Policy and the app's ads setup may need additional changes to comply with Google Play Families, child-directed advertising requirements, and other applicable rules.</p>
+                </section>
+
+                <section>
+                    <h2>10. International Processing</h2>
+                    <p>If you use TrulySort, third-party services such as Google AdMob, Apple, or other photo storage providers may process information on servers located in countries other than your own. Those third parties handle such processing under their own terms, safeguards, and privacy policies.</p>
+                </section>
+
+                <section>
+                    <h2>11. Your Choices</h2>
+                    <p>Depending on how you use the app and where you are located, you may have the following choices:</p>
+                    <ul>
+                        <li>You can choose whether to grant full, limited, or no photo-library access where your operating system supports those options.</li>
+                        <li>You can manage photo-library permissions through your device settings.</li>
+                        <li>You can choose which photos to keep, remove, or move.</li>
+                        <li>You can manage deleted photos through your device's trash, bin, or Recently Deleted area where available.</li>
+                        <li>You can delete or reset local TrulySort app data from within the app.</li>
+                        <li>You can uninstall the app at any time.</li>
+                        <li>You can review available ad/privacy options shown in the app when required.</li>
+                        <li>You can manage advertising preferences through your device settings and Google's ad settings tools.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>12. Changes to This Privacy Policy</h2>
+                    <p>We may update this Privacy Policy from time to time to reflect changes to the app, legal requirements, or third-party services.</p>
+                    <p>When we make material changes, we will update the effective date at the top of this page. Continued use of the app after an updated Privacy Policy is posted means the updated policy will apply going forward.</p>
+                </section>
+
+                <section>
+                    <h2>13. Contact</h2>
+                    <p>If you have questions, feedback, or privacy-related requests, contact:</p>
+                    <p><a href="mailto:sancheznarro.pablo@gmail.com">sancheznarro.pablo@gmail.com</a></p>
+                </section>
+
+                <footer class="policy-footer">
+                    <p>This page is provided as a standalone privacy policy for the TrulySort app.</p>
+                </footer>
+            </article>
+        </div>
+    </main>
+</body>
+</html>
